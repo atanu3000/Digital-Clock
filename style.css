@@ -1,0 +1,74 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "Russo One", sans-serif; */
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(64, 64, 64);
+  background-color: #000;
+  padding: 20px;
+}
+
+.container {
+  box-shadow:0px 0px 10px 1px #39ff14;
+  -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5));
+  padding: 50px;
+  border-radius: 20px;
+  background-color: #39ff14;
+  /* overflow: hidden; */
+}
+
+.container h1 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.wrapper {
+  margin-top: 30px;
+  background-color: rgb(64, 64, 64);
+  color: #39ff14;
+  padding: 10px 0;
+  border-radius: 10px;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.7);
+  overflow: hidden;
+  font-size: 26px;
+}
+
+#format12 {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+#format24 {
+  text-align: center;
+  letter-spacing: 2px;
+  display: none;
+}
+
+.format {
+  display: flex;
+  padding: 10px 0;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+button {
+  cursor: pointer;
+  padding: 5px 20px;
+  border-radius: 10px;
+  background-color: rgb(64, 64, 64);
+  color: #39ff14;
+  box-shadow: 0 3px 15px rgba(100, 100, 100, 0.7);
+}
+
